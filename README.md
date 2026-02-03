@@ -36,6 +36,12 @@ Directorio con todas las muestras generadas, aún sin revisar manualmente. Inclu
 
 #### Scripts principales
 
+Nota importante sobre los siguientes scripts:
+
+  Copyright (c) 2019 Computer Vision Center (CVC) at the Universitat Autonoma de Barcelona (UAB).
+  This work is licensed under the terms of the MIT license.
+  For a copy, see <https://opensource.org/licenses/MIT>.
+
 - **`carla_agent_screenless.py`**: Script principal que controla el agente autónomo en CARLA. Se encarga de:
   - Inicializar el vehículo ego y los sensores (cámaras RGB y de segmentación semántica)
   - Capturar imágenes frontales y BEV durante la navegación
