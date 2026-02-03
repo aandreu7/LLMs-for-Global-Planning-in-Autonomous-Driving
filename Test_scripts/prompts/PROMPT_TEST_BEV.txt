@@ -1,0 +1,9 @@
+I am attaching an image showing the birds-eye-view of my surroundings.  
+
+On the birds-eye-view, my position is indicated by a red arrow showing the direction my car is facing.  
+My destination is marked with a blue square.
+
+Your task is to determine the next action that I have to take with my car to reach the blue destination square, minimizing the driving distance.  
+This is a classification task with three possible outputs: Right, Left, Straight.
+
+Please respond with only one unique word (Straight/Right/Left).
