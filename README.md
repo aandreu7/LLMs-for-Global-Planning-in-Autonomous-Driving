@@ -8,7 +8,7 @@ Recent advances in computer vision have significantly accelerated the developmen
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del Repositorio
 
 ### `dataset/`
 
