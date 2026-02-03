@@ -1,6 +1,10 @@
-# LLMs Comparison - Proyecto de Navegación Autónoma en CARLA
+# LLMs for Global Planning in Autonomous Driving
 
-Este proyecto implementa y evalúa diferentes modelos de lenguaje multimodal (LMMs) para la tarea de navegación autónoma en intersecciones utilizando el simulador CARLA. El sistema combina imágenes BEV (Bird's Eye View) y frontales para predecir la dirección correcta (Straight, Right, Left) que debe tomar un vehículo autónomo.
+This is the official GitHub repository for the "Global Planning for Autonomous Driving Systems using LLMs" paper, in which the main scripts and the data generated are uploaded.
+
+Abstract of the paper:
+
+Recent advances in computer vision have significantly accelerated the development of autonomous driving systems relying on perception sensors. While these systems can accurately interpret their surroundings, their planning capabilities remain limited, particularly when determining the optimal action to reach a specific destination in complex scenarios, such as intersections or roundabouts. In this work, we propose a global planning framework that leverages large language models (LLMs) with multimodal capabilities ---integrating both language and visual information--- to guide autonomous vehicle decision-making. We employ a pre-trained multimodal model (LMM) derived from an LLM with visual integration, which is fine-tuned on synthetic data generated in the CARLA simulator to adapt its visual reasoning to realistic driving environments. Finally, advanced prompt engineering strategies, including Chain-of-Thought and Many-Shot Learning, are applied to enhance the accuracy and consistency of the model's decisions during inference.
 
 ---
 
