@@ -1,4 +1,4 @@
-# LLMs for Global Planning in Autonomous Driving
+# LLMs for Global Planning in Autonomous Driving 🚗
 
 This is the official GitHub repository for the "Global Planning for Autonomous Driving Systems using LLMs" paper, in which the main scripts and the data generated are uploaded.
 
@@ -11,6 +11,8 @@ Recent advancements in computer vision have significantly bolstered the developm
 ## 📁 Estructura del Repositorio
 
 ### `dataset.zip`
+
+Accesible desde este [link](https://drive.google.com/file/d/1VqATbxhhrmqwzPkUeUxq8d_S7SzX75b0/view?usp=sharing) a Google Drive.
 
 Contiene el dataset limpio tras la revisión individualizada de cada muestra. Una vez descomprimido, la estructura del directorio resultante es la siguiente:
 
