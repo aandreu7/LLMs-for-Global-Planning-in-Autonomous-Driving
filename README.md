@@ -4,15 +4,15 @@ This is the official GitHub repository for the "Global Planning for Autonomous D
 
 Abstract of the paper:
 
-Recent advances in computer vision have significantly accelerated the development of autonomous driving systems relying on perception sensors. While these systems can accurately interpret their surroundings, their planning capabilities remain limited, particularly when determining the optimal action to reach a specific destination in complex scenarios, such as intersections or roundabouts. In this work, we propose a global planning framework that leverages large language models (LLMs) with multimodal capabilities ---integrating both language and visual information--- to guide autonomous vehicle decision-making. We employ a pre-trained multimodal model (LMM) derived from an LLM with visual integration, which is fine-tuned on synthetic data generated in the CARLA simulator to adapt its visual reasoning to realistic driving environments. Finally, advanced prompt engineering strategies, including Chain-of-Thought and Many-Shot Learning, are applied to enhance the accuracy and consistency of the model's decisions during inference.
+Recent advancements in computer vision have significantly bolstered the development of autonomous driving systems based on perception sensors. Although these systems accurately interpret the immediate environment, their capacity for global planning ---such as determining the appropriate action to reach a specific destination at intersections or roundabouts--- remains limited and lacks scalability. This work presents a methodology for global planning that leverages Large Language Models (LLMs) with visual capabilities to guide the decision-making process of an autonomous vehicle at intersections. Pre-trained Vision-Language Models (VLMs) derived from LLMs with visual integration are employed and fine-tuned on synthetic data generated within the CARLA simulator, aiming to adapt their visual reasoning to realistic driving scenarios. Finally, advanced prompt engineering techniques, such as Chain-of-Thought and Few-Shot Learning, are explored to improve the accuracy and coherence of their decisions during inference.
 
 ---
 
 ## 📁 Estructura del Repositorio
 
-### `dataset/`
+### `dataset.zip`
 
-Contiene el dataset limpio tras la revisión individualizada de cada muestra. La estructura es la siguiente:
+Contiene el dataset limpio tras la revisión individualizada de cada muestra. Una vez descomprimido, la estructura del directorio resultante es la siguiente:
 
 - **`data.json`**: Archivo JSON principal que contiene todas las muestras del dataset. Para cada muestra se incluye:
   - Rutas a las 4 imágenes (frontal RGB, frontal segmentada, BEV RGB, BEV segmentada)
